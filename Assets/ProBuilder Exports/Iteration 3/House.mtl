@@ -1,0 +1,23 @@
+newmtl Wooden_Floor
+map_Kd -o 0 0 -s 1 1 Wooden Floor_4K_Albedo.tga
+map_Pm -o 0 0 -s 1 1 Wooden Floor_4K_Metalness.tga
+bump -o 0 0 -s 1 1 Wooden Floor_4K_Normal.tga
+disp -o 0 0 -s 1 1 Wooden Floor_4K_Displacement.tga
+Kd 1 1 1
+d 1
+
+newmtl Wooden_Floor_2
+map_Kd -o 0 0 -s 1 1 Wooden Floor2_4K_Albedo.tga
+map_Pm -o 0 0 -s 1 1 Wooden Floor2_4K_Metalness.tga
+bump -o 0 0 -s 1 1 Wooden Floor2_4K_Normal.tga
+disp -o 0 0 -s 1 1 Wooden Floor2_4K_Displacement.tga
+Kd 1 1 1
+d 1
+
+newmtl Stylize_Wood_
+map_Kd -o 0 0 -s 1 1 vol_2_3_Base_Color.png
+bump -o 0 0 -s 1 1 vol_2_3_Normal.png
+disp -o 0 0 -s 1 1 vol_2_3_Height.png
+Kd 0.5660378 0.4029724 0.2803489
+d 1
+
