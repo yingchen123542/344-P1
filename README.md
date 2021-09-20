@@ -1,4 +1,9 @@
 # 344-P1
+
+Unity version: 2020.3.17f1
+Team members: Lucas Torti, Yuki Chen 
+Contributions: each team member is responsible for making the following assets
+
 Lucas’ Assets(make with probuilder)
 1. Wall(s) Cracked, wooden, worn
 2. Doorway(s) (With frames) Wooden, worn
@@ -20,3 +25,4 @@ Yuki’s Assets(make with probuilder)
 6. Perfume (Colors created by chemicals) Purple
 7. Footprints
 8. (On Hold) Vines
+
