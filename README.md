@@ -1,7 +1,9 @@
 # 344-P1
 
 Unity version: 2020.3.17f1
+
 Team members: Lucas Torti, Yuki Chen 
+
 Contributions: each team member is responsible for making the following assets
 
 Lucas’ Assets(make with probuilder)
@@ -16,13 +18,13 @@ Green Tree
 7. Bare Tree
 
 
-Yuki’s Assets(make with probuilder)
+Yuki’s Assets
 1. (On Hold) Tiny wooden house for the witch 
-2. Flower: dandelions alive 
-3. Flower: dandelions dead 
+2. Flower alive 
+3. Flower dead 
 4. Perfume (Colors created by chemicals) Red
 5. Perfume (Colors created by chemicals) Green
-6. Perfume (Colors created by chemicals) Purple
+6. Perfume (Colors created by chemicals) blue
 7. Footprints
 8. (On Hold) Vines
 
