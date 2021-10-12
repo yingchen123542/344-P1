@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
 
     private int fixedUpdateCount = 0;
     public TextMeshProUGUI dialogueText;
-    public GameObject screen;
+    // public GameObject screen;
     private Queue<char> sentence = new Queue<char>();
 
     public Animator animator;
@@ -71,10 +71,6 @@ public class DialogueManager : MonoBehaviour
 
         dialogueText.text = "";
 
-                            Debug.Log(currentDialogueNode.sentence.Length);
-                            Debug.Log(currentDialogueNode.sentence);
-
-
         int i = 0;
                             Debug.Log("Is true:" + (i < currentDialogueNode.sentence.Length));
         while(i < currentDialogueNode.sentence.Length)
@@ -83,17 +79,6 @@ public class DialogueManager : MonoBehaviour
             i++;
         }
         
-        // for(int i = 0; i < currentDialogueNode.sentence.Length; i++)
-        // {
-        //     sentence.Enqueue(currentDialogueNode.sentence[i]);
-        //     Debug.Log("Yee");
-        // }
-
-        // foreach(char character in currentDialogueNode.sentence.ToCharArray())
-        // {
-        //     sentence.Enqueue(character);
-        //     Debug.Log("Yee");
-        // }
 
         shouldCatTalk += 1;
     }
@@ -131,9 +116,6 @@ public class DialogueManager : MonoBehaviour
         fixedUpdateCount += 1;
     }
 
-
-    
-
     void EndDialgue()
     {
         dialogueText.text = "";
@@ -144,52 +126,6 @@ public class DialogueManager : MonoBehaviour
         }
 
         animator.Play("Dialogue_Closed");
-    }
-
-    public void AbruptEnd()
-    {
-        if (dialogueNodes.Count > 0)
-        {
-        DialogueNode abruptEnd = new DialogueNode();
-            abruptEnd.sentence = "I'll get out of your fur -_-";
-            dialogueNodes.Clear();
-            dialogueNodes.Enqueue(abruptEnd);
-            DisplayNextSentence(); 
-        }
-        
-    }
-
-    void OnTriggerEnter2D (Collider2D hitInfo) //https://forum.unity.com/threads/figuring-out-exactly-how-many-objects-are-touching-a-trigger-or-collider.70104/
-    {
-        if(hitInfo.gameObject.tag == "PC")
-        {
-          playersTouching += 1;
-          //Debug.Log(isPlayerTouching);
-        }
-        SetOppacity();
-    }
-
-    void OnTriggerExit2D (Collider2D hitInfo)
-    {
-        if(hitInfo.gameObject.tag == "PC")
-        {
-          playersTouching -= 1;
-        }
-        SetOppacity();
-    }
-
-    void SetOppacity()
-    {
-        if (playersTouching > 0)
-        {
-            gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
-            screen.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.3f);
-        }
-        else
-        {
-            gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
-            screen.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
-        }
     }
 
 }

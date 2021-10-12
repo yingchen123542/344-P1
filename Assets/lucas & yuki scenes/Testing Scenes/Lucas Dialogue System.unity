@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 197790796}
   - component: {fileID: 197790795}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Dialogue Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 1172205343}
   - component: {fileID: 1172205342}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Dialogue Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 197790795}
-  screen: {fileID: 0}
   animator: {fileID: 0}
   objectsToSpawnAfterDialogue: []
   queuedDialogueChoice: {fileID: 0}
