@@ -13,6 +13,6 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneToLoad);
         //resets challenge
-        Challenge.Instance.challenge = 0;
+        //Challenge.Instance.challenge = 0;
     }
 }
