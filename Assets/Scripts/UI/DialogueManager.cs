@@ -20,10 +20,6 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
-    // public GameObject characterPortrait;
-
-    // public GameObject namePlate;
-
     public GameObject[] objectsToSpawnAfterDialogue;
 
     public Queue<DialogueNode> dialogueNodes;
@@ -32,9 +28,6 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private AudioSource catTalk = null;
     private int shouldCatTalk = 0;
-    private int playersTouching = 0;
-    [SerializeField]
-    private Collider2D thisCollider;
 
 
 
