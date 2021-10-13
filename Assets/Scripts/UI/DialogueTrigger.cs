@@ -13,17 +13,10 @@ public class DialogueTrigger : MonoBehaviour
 
     public void Start()
     {
-        // if (isTriggeredOnStart && isSlightDelayBeforeDialogue)
-        // {
-        //     StartCoroutine(DelayStart());
-        // }
-        // else
-        // {
-            if (isTriggeredOnStart)
-            {
-                TriggerDialogue();
-            }
-        // }
+        if (isTriggeredOnStart)
+        {
+            TriggerDialogue();
+        }
     }
 
     public void TriggerDialogue()

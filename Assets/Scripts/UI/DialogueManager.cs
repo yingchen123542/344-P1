@@ -11,14 +11,14 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     private int FIXED_UPDATES_BETWEEN_LETTERS = 2;
-    private int FIXED_UPDATES_BETWEEN_SENTENCES = 80;
+    private int FIXED_UPDATES_BETWEEN_SENTENCES = 120;
 
     private int fixedUpdateCount = 0;
     public TextMeshProUGUI dialogueText;
     // public GameObject screen;
     private Queue<char> sentence = new Queue<char>();
 
-    public Animator animator;
+    //public Animator animator;
 
     public GameObject[] objectsToSpawnAfterDialogue;
 
@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (DialogueNode[] loadedDialogueNodes, GameObject[] afterDialogueObjects)
     {
-        animator.SetBool("IsOpen", true);
+        //animator.SetBool("IsOpen", true);
         dialogueNodes = new Queue<DialogueNode>();
         sentence = new Queue<char>();
 
@@ -65,7 +65,6 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
         int i = 0;
-                            Debug.Log("Is true:" + (i < currentDialogueNode.sentence.Length));
         while(i < currentDialogueNode.sentence.Length)
         {
             sentence.Enqueue(currentDialogueNode.sentence[i]);
@@ -92,16 +91,9 @@ public class DialogueManager : MonoBehaviour
                 dialogueText.text += sentence.Dequeue();
                 fixedUpdateCount = 0;
             }
-
-            if (shouldCatTalk > 1 && !catTalk.isPlaying)
-            {
-                catTalk.pitch = Random.Range(0.8f, 1.2f);
-                catTalk.Play(0);
-            }
         }
         else if (fixedUpdateCount >= FIXED_UPDATES_BETWEEN_SENTENCES)
         {
-            Debug.Log("Yee: " + (fixedUpdateCount >= FIXED_UPDATES_BETWEEN_SENTENCES) + fixedUpdateCount);
             DisplayNextSentence();
             fixedUpdateCount = 0;
         }
@@ -111,14 +103,16 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialgue()
     {
+        Debug.Log("Cats");
         dialogueText.text = "";
 
         foreach(GameObject myGameobject in objectsToSpawnAfterDialogue)
         {
+            Debug.Log("Cats");
             Instantiate(myGameobject);
         }
 
-        animator.Play("Dialogue_Closed");
+        //animator.Play("Dialogue_Closed");
     }
 
 }
