@@ -10,6 +10,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    private int START_DELAY = 80;
     private int FIXED_UPDATES_BETWEEN_LETTERS = 2;
     private int FIXED_UPDATES_BETWEEN_SENTENCES = 120;
 
@@ -20,7 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     //public Animator animator;
 
-    public GameObject[] objectsToSpawnAfterDialogue;
+    public GameObject spawnAfterDialogue;
 
     public Queue<DialogueNode> dialogueNodes;
     public GameObject queuedDialogueChoice;
@@ -46,7 +47,7 @@ public class DialogueManager : MonoBehaviour
             dialogueNodes.Enqueue(dialogueNode);
         }
 
-        objectsToSpawnAfterDialogue = afterDialogueObjects;
+        //objectsToSpawnAfterDialogue = afterDialogueObjects;
 
 
         DisplayNextSentence();
@@ -86,7 +87,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentence.Count > 0)
         {
-            if (fixedUpdateCount >= FIXED_UPDATES_BETWEEN_LETTERS)
+            if (fixedUpdateCount >= FIXED_UPDATES_BETWEEN_LETTERS && (fixedUpdateCount >= START_DELAY || dialogueText.text != ""))
             {
                 dialogueText.text += sentence.Dequeue();
                 fixedUpdateCount = 0;
@@ -103,14 +104,8 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialgue()
     {
-        Debug.Log("Cats");
         dialogueText.text = "";
-
-        foreach(GameObject myGameobject in objectsToSpawnAfterDialogue)
-        {
-            Debug.Log("Cats");
-            Instantiate(myGameobject);
-        }
+        Instantiate(spawnAfterDialogue);
 
         //animator.Play("Dialogue_Closed");
     }

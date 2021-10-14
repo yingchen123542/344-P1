@@ -111,7 +111,7 @@ Animation:
   m_GameObject: {fileID: 4554747281285290473}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: fb07f39829a758f409ec05c87a1ddb82, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: fb07f39829a758f409ec05c87a1ddb82, type: 2}
   m_WrapMode: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
