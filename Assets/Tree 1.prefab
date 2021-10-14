@@ -43523,7 +43523,7 @@ Material:
     - _Cutoff: 0.3
     - _SquashAmount: 1
     m_Colors:
-    - _Color: {r: 0.5849056, g: 0.42411754, b: 0.17933428, a: 1}
+    - _Color: {r: 0.5283019, g: 0.43690553, b: 0.29654682, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
