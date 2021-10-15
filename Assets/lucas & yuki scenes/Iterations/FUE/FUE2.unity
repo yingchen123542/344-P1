@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04108934, g: 0.072533436, b: 0.12543744, a: 1}
+  m_IndirectSpecularColor: {r: 0.041091345, g: 0.07253561, b: 0.12543699, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17446,8 +17446,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2000
-  field of view: 90
+  far clip plane: 4000
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -17473,7 +17473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419800111}
   m_LocalRotation: {x: 0.058495667, y: -0.036396828, z: 0.004815335, w: 0.9976123}
-  m_LocalPosition: {x: 485, y: 262, z: -316}
+  m_LocalPosition: {x: 539.3, y: 350.1, z: -1062}
   m_LocalScale: {x: 1.0676, y: 1.1090229, z: 1.0676}
   m_Children: []
   m_Father: {fileID: 0}
