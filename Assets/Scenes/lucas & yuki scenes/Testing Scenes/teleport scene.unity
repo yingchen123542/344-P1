@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0031087787, g: 0.0061920006, b: 0.014193548, a: 1}
+  m_IndirectSpecularColor: {r: 0.0031383112, g: 0.006175163, b: 0.014198319, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8804,7 +8804,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6047e3a03ac4a435b971098061ac018f, type: 2}
+  - {fileID: 2100000, guid: 8cb262306b95bea42902c3a8ebd573e5, type: 2}
   - {fileID: 2100000, guid: 6047e3a03ac4a435b971098061ac018f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -9103,7 +9103,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.17
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -12890,7 +12890,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 0.41568628}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -12906,7 +12906,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 57632
+        atime1: 65535
         atime2: 0
         atime3: 0
         atime4: 0
@@ -19803,13 +19803,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514993712}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2666, y: -434, z: -385.6}
-  m_LocalScale: {x: 16289909, y: 16289909, z: 16289909}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 651596.4, y: 651596.3, z: 651596.3}
   m_Children:
   - {fileID: 377862427}
   - {fileID: 238675925}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1074227614}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &544657991
 PrefabInstance:
