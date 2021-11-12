@@ -22204,7 +22204,7 @@ GameObject:
   - component: {fileID: 819339936}
   - component: {fileID: 819339935}
   m_Layer: 0
-  m_Name: Base Terrain
+  m_Name: Base Terrain with grass setup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
