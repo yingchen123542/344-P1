@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lucas & yuki scenes/Iterations/FUE/FUE3.unity
     guid: f4712ccf5d32f41c98f47d010922aa5d
+  - enabled: 1
+    path: Assets/Scenes/lucas & yuki scenes/Iterations/Gameplay/Yuki Level 0.unity
+    guid: cc553860cc35c4706926e4b003e6f134
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

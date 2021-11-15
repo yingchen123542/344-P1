@@ -198,9 +198,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2265170868300275483, guid: 975b667d3f0cc2a4e81354965ef97148, type: 3}
       propertyPath: dialogueNodes.Array.data[1].sentence
-      value: The Spirit, powerless to stop the flames, could only watch as fire enveloped
-        the tree, sucking away the lifeforce the Spirit had worked so diligently
-        to perserve.
+      value: Moka, powerless to stop the flames, could only watch as fire enveloped
+        the tree, sucking away the lifeforce the they had worked so diligently to
+        perserve.
       objectReference: {fileID: 0}
     - target: {fileID: 2265170869013512657, guid: 975b667d3f0cc2a4e81354965ef97148, type: 3}
       propertyPath: m_Name

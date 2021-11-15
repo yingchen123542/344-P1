@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    public GameObject [] objectsToDeactivate;
+    public GameObject [] objectsToActivate;
     //Upon a collider hitting the trigger, this collectible will be destroyed
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        foreach(GameObject thisObject in objectsToActivate)
+        {
+            thisObject.SetActive(true);
+        }
+
+         foreach(GameObject thisObject in objectsToDeactivate)
+        {
+            thisObject.SetActive(false);
+        }
     }
 
 }
