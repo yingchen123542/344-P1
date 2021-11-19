@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.029480526, g: 0.038945522, b: 0.04759149, a: 1}
+  m_IndirectSpecularColor: {r: 0.029478056, g: 0.038939897, b: 0.047585286, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17317,6 +17317,18 @@ PrefabInstance:
       propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2853455379690619358, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17361,6 +17373,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619359, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619359, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cf29faeb2799aa4aa1c6c4b48192792, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
 --- !u!1 &1713145818
@@ -31185,6 +31205,18 @@ PrefabInstance:
       propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619356, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2853455379690619358, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -31229,6 +31261,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619359, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619359, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853455379690619359, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cf29faeb2799aa4aa1c6c4b48192792, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a801e27218e2b4b55aeb41f5bb1d6342, type: 3}
 --- !u!4 &2859071874825593302
