@@ -213,7 +213,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73970506
 GameObject:
@@ -754,7 +754,7 @@ Transform:
   - {fileID: 1463853187}
   - {fileID: 1115116126}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94474204
 GameObject:
@@ -916,6 +916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107087625}
   - component: {fileID: 107087626}
+  - component: {fileID: 107087627}
   m_Layer: 0
   m_Name: Cat Clock (4)
   m_TagString: Untagged
@@ -953,6 +954,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &107087627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107087624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1001 &128294529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2146,6 +2171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167727417}
   - component: {fileID: 167727418}
+  - component: {fileID: 167727419}
   m_Layer: 0
   m_Name: Cat Clock (14)
   m_TagString: Untagged
@@ -2183,6 +2209,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &167727419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167727416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &175810347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,7 +3287,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &198134143
 PrefabInstance:
@@ -4610,6 +4660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240699257}
   - component: {fileID: 240699258}
+  - component: {fileID: 240699259}
   m_Layer: 0
   m_Name: Cat Clock (6)
   m_TagString: Untagged
@@ -4647,6 +4698,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &240699259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240699256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &246219822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,6 +4732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246219823}
   - component: {fileID: 246219824}
+  - component: {fileID: 246219825}
   m_Layer: 0
   m_Name: Cat Clock (16)
   m_TagString: Untagged
@@ -4694,6 +4770,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &246219825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246219822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1001 &253678507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6313,6 +6413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441723523}
   - component: {fileID: 441723524}
+  - component: {fileID: 441723525}
   m_Layer: 0
   m_Name: Cat Clock (17)
   m_TagString: Untagged
@@ -6350,6 +6451,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &441723525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441723522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &445689312
 GameObject:
   m_ObjectHideFlags: 0
@@ -6556,7 +6681,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453996301
 GameObject:
@@ -7974,7 +8099,7 @@ Transform:
   - {fileID: 246219823}
   - {fileID: 441723523}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &601592990
 PrefabInstance:
@@ -8246,7 +8371,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &644960826
 GameObject:
@@ -9484,6 +9609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736841488}
   - component: {fileID: 736841489}
+  - component: {fileID: 736841490}
   m_Layer: 0
   m_Name: Cat Clock (15)
   m_TagString: Untagged
@@ -9521,6 +9647,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &736841490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736841487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &747345443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9645,6 +9795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 771408390}
   - component: {fileID: 771408391}
+  - component: {fileID: 771408392}
   m_Layer: 0
   m_Name: Cat Clock (12)
   m_TagString: Untagged
@@ -9682,6 +9833,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &771408392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771408389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &819339933
 GameObject:
   m_ObjectHideFlags: 0
@@ -11169,7 +11344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2265170869013512658, guid: 975b667d3f0cc2a4e81354965ef97148, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2265170869013512658, guid: 975b667d3f0cc2a4e81354965ef97148, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11434,7 +11609,7 @@ Transform:
   m_Children:
   - {fileID: 819339934}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960552538 stripped
 GameObject:
@@ -12309,6 +12484,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086474948}
   m_Mesh: {fileID: 3968330007982612225, guid: 97f339b0885ba634d8879230c927c635, type: 3}
+--- !u!1001 &1086821457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000013356204050, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_Name
+      value: Hexgon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.96129
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3544602
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.13098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012689552980, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000011097900018, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3fdd53a2b5dd904fad8d824266a4cad, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 676e107eeafc5524b97910d76516565d, type: 3}
 --- !u!4 &1092729371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8783306491909106419, guid: f02116c209ecd9e488fc4d2cd8996133, type: 3}
@@ -12420,7 +12668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: SprintSpeed
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
@@ -12654,6 +12902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124058305}
   - component: {fileID: 1124058306}
+  - component: {fileID: 1124058307}
   m_Layer: 0
   m_Name: Cat Clock (1)
   m_TagString: Untagged
@@ -12691,6 +12940,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1124058307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124058304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &1132048066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13991,6 +14264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283315688}
   - component: {fileID: 1283315689}
+  - component: {fileID: 1283315690}
   m_Layer: 0
   m_Name: Cat Clock (2)
   m_TagString: Untagged
@@ -14028,6 +14302,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1283315690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283315687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!43 &1291366707
 Mesh:
   m_ObjectHideFlags: 0
@@ -15179,6 +15477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437374356}
   - component: {fileID: 1437374357}
+  - component: {fileID: 1437374358}
   m_Layer: 0
   m_Name: Cat Clock (7)
   m_TagString: Untagged
@@ -15216,6 +15515,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1437374358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437374355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &1444241170
 GameObject:
   m_ObjectHideFlags: 0
@@ -15679,6 +16002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469440244}
   - component: {fileID: 1469440245}
+  - component: {fileID: 1469440246}
   m_Layer: 0
   m_Name: Cat Clock (13)
   m_TagString: Untagged
@@ -15716,6 +16040,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1469440246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469440243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1001 &1472099568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17204,6 +17552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709072763}
   - component: {fileID: 1709072764}
+  - component: {fileID: 1709072765}
   m_Layer: 0
   m_Name: Cat Clock (11)
   m_TagString: Untagged
@@ -17241,6 +17590,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1709072765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709072762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &1710654757
 GameObject:
   m_ObjectHideFlags: 0
@@ -17392,6 +17765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1713145819}
   - component: {fileID: 1713145820}
+  - component: {fileID: 1713145821}
   m_Layer: 0
   m_Name: Cat Clock (10)
   m_TagString: Untagged
@@ -17429,6 +17803,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1713145821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713145818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &1715871636
 GameObject:
   m_ObjectHideFlags: 0
@@ -17520,6 +17918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722758616}
   - component: {fileID: 1722758617}
+  - component: {fileID: 1722758618}
   m_Layer: 0
   m_Name: Cat Clock (8)
   m_TagString: Untagged
@@ -17557,6 +17956,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1722758618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722758615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1001 &1756898294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17732,6 +18155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775380672}
   - component: {fileID: 1775380673}
+  - component: {fileID: 1775380674}
   m_Layer: 0
   m_Name: Cat Clock (5)
   m_TagString: Untagged
@@ -17769,6 +18193,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &1775380674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775380671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1001 &1785859788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21537,6 +21985,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028759480}
   m_Mesh: {fileID: 6214228992259098153, guid: 97f339b0885ba634d8879230c927c635, type: 3}
+--- !u!1 &2035740384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013356204050, guid: 676e107eeafc5524b97910d76516565d, type: 3}
+  m_PrefabInstance: {fileID: 1086821457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2035740385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035740384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c970871e27f4012a1c5af1fd0521f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToDeactivate: []
+  objectsToActivate: []
+--- !u!65 &2035740386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035740384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.673261, y: 1.4742059, z: 2.708905}
+  m_Center: {x: -0.000012397766, y: -0.0075622816, z: -0.00000029802328}
 --- !u!1 &2050989002
 GameObject:
   m_ObjectHideFlags: 0
@@ -22039,7 +22519,7 @@ Transform:
   - {fileID: 1715871637}
   - {fileID: 680052834}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2089397279
 PrefabInstance:
@@ -22125,6 +22605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090913796}
   - component: {fileID: 2090913797}
+  - component: {fileID: 2090913798}
   m_Layer: 0
   m_Name: Cat Clock (9)
   m_TagString: Untagged
@@ -22162,6 +22643,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &2090913798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090913795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &2097283644
 GameObject:
   m_ObjectHideFlags: 0
@@ -22172,6 +22677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097283645}
   - component: {fileID: 2097283646}
+  - component: {fileID: 2097283647}
   m_Layer: 0
   m_Name: Cat Clock (3)
   m_TagString: Untagged
@@ -22209,6 +22715,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.6495447, y: 9.516713, z: 0.56384254}
   m_Center: {x: 0.05770445, y: -3.2712445, z: -0.01147759}
+--- !u!114 &2097283647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097283644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!1 &2109634159
 GameObject:
   m_ObjectHideFlags: 0
@@ -22245,7 +22775,7 @@ Transform:
   - {fileID: 1916658284}
   - {fileID: 1660081750}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2111274836
 GameObject:
@@ -22438,7 +22968,7 @@ Transform:
   - {fileID: 747345444}
   - {fileID: 407926871}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2139356127
 GameObject:
@@ -24974,6 +25504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 548488736221192552}
   - component: {fileID: 1985005699}
+  - component: {fileID: 925295341382941651}
   m_Layer: 0
   m_Name: Cat Clock
   m_TagString: Untagged
@@ -24981,6 +25512,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &925295341382941651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925295341382941650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAnimated: 1
+  isRotating: 0
+  isFloating: 1
+  isScaling: 0
+  rotationAngle: {x: 0, y: 0, z: 0}
+  rotationSpeed: 0
+  floatSpeed: 0.02
+  floatRate: 2
+  startScale: {x: 0, y: 0, z: 0}
+  endScale: {x: 0, y: 0, z: 0}
+  scaleSpeed: 0
+  scaleRate: 0
 --- !u!23 &1040041735211317116
 MeshRenderer:
   m_ObjectHideFlags: 0
