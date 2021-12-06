@@ -13960,9 +13960,12 @@ MonoBehaviour:
   isTriggeredOnStart: 1
   isSlightDelayBeforeDialogue: 0
   dialogueNodes:
-  - sentence: Moka places the flowers on the tree, but only the faintest glow eminates
-      from the Matron Tree.
-  - sentence: Moka needs to use the portal on the right.
+  - sentence: As Moka paced the flowers on the tree, only the faintest glow eminated
+      from them.
+  - sentence: It seemed that the Tree's powe was beyond repair with the paltry flowers
+      Moka had gathered.
+  - sentence: Moka noticed a strange object to the right of the Matron Tree, which
+      pulsated with dormant power...
   objectsToSpawnAfterDialogue: []
 --- !u!1001 &1190871055
 PrefabInstance:
