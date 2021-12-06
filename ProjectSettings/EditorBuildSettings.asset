@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: a1c55a31d8ec8b24b90b28af45c144d0
+  - enabled: 1
     path: Assets/Scenes/lucas & yuki scenes/Iterations/FUE/FUE1.unity
     guid: 301d8807f434d438a86650f8396cf093
   - enabled: 1
