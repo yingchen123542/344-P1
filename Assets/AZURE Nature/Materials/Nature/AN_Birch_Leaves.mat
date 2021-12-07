@@ -8,15 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AN_Birch_Leaves
-  m_Shader: {fileID: 4800000, guid: 0154318cd2c5a3747a66420b5d885dd5, type: 3}
-  m_ShaderKeywords: _COLOR2ENABLE_ON _COLOR2OVERLAYTYPE_VERTEXPOSITIONBASED _COLOR2OVERLAYTYPE_VERTEX_POSITION_BASED
-    _COLOR2TYPE_VERTEXPOSITIONBASED _KEYWORD0_ON _SNOWOVERLAYTYPE_WORLDNORMALBASED
-    _SNOWOVERLAYTYPE_WORLD_NORMAL_BASED _TREETYPE_BROADLEAF _WIND_ON
-  m_LightmapFlags: 4
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _COLOR2ENABLE_ON _COLOR2OVERLAYTYPE_VERTEXPOSITIONBASED
+    _COLOR2OVERLAYTYPE_VERTEX_POSITION_BASED _COLOR2TYPE_VERTEXPOSITIONBASED _EMISSION
+    _KEYWORD0_ON _SNOWOVERLAYTYPE_WORLDNORMALBASED _SNOWOVERLAYTYPE_WORLD_NORMAL_BASED
+    _TREETYPE_BROADLEAF _WIND_ON
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -103,16 +105,16 @@ Material:
     - _Color2Type: 0
     - _Cutoff: 0.35
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EnableColor2: 0
     - _Fixthebaseoffoliage: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.217
     - _GlossyReflections: 1
     - _InvertColor2: 0
     - _Keyword0: 1
-    - _Metallic: 0
-    - _Mode: 0
+    - _Metallic: 0.669
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SNOW: 0
@@ -138,12 +140,13 @@ Material:
     - _WindForce: 0.142
     - _WindSpeed: 0.508
     - _WindWavesScale: 0.346
-    - _ZWrite: 1
+    - _ZWrite: 0
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9056604, g: 0.18757908, b: 0.055535804, a: 1}
     - _Color1: {r: 0.11446146, g: 0.496, b: 0.05341538, a: 0}
     - _Color2: {r: 0.5568627, g: 1, b: 0.10196078, a: 0}
     - _CoverageColor: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.67299557, g: 0, b: 1, a: 1}
     - _SnowColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
