@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4554747281285290470}
   - component: {fileID: 4554747281285290471}
   m_Layer: 5
-  m_Name: Fade Out Canvas
+  m_Name: Fade Out Canvas Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,10 +111,9 @@ Animation:
   m_GameObject: {fileID: 4554747281285290473}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 9bd6c1a262031914b95f6c0eda378274, type: 2}
+  m_Animation: {fileID: 7400000, guid: fb07f39829a758f409ec05c87a1ddb82, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: fb07f39829a758f409ec05c87a1ddb82, type: 2}
-  - {fileID: 7400000, guid: 9bd6c1a262031914b95f6c0eda378274, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -131,7 +130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b942bac712340b94dbb41648ee46311b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGoNextScene: 1
   sceneToLoad: 0
 --- !u!1 &4554747281873734671
 GameObject:
